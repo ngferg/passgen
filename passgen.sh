@@ -78,4 +78,5 @@ do
 		printf "\x$(printf %x $CHAR)"
 	done
 	echo
+	echo
 done
