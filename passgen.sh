@@ -34,7 +34,12 @@ let START=33;
 
 for i in `seq 1 $NUM`;
 do
-	echo -n "Password $i: "
+	echo -n "Password"
+	if [ "$1" = "-m" ]; then
+		echo -n " $i"
+	fi
+	echo -n ": "
+
 	for j in `seq 1 $LEN`;
 	do
 		let CHAR=$RANDOM;
