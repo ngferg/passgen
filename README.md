@@ -29,3 +29,7 @@ generate multiple passwords
 passgen -n
 
 no special characters
+
+install
+=======
+sudo ./install.sh
